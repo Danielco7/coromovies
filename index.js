@@ -28,7 +28,7 @@ app.use('/api/Subs',subsrouts)
 
 const PORT = process.env.PORT || 3001;
 
-app.use(express.static(path.resolve(__dirname, 'public', 'index.html')));
+app.use(express.static(path.resolve(__dirname, '/public/index.html')));
 
 app.get("/api", (req, res) => {
   res.json({ message: "Hello from server!" });
