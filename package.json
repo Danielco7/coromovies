@@ -1,14 +1,11 @@
 {
-  "homepage": "http://Danielco7.github.io/coromovies",
   "name": "cinema-ws",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "start": "node index.js"
   },
   "engines": {
     "node": "16.13.2"
